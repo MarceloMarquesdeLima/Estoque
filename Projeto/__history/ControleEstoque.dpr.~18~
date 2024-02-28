@@ -1,0 +1,26 @@
+program ControleEstoque;
+
+uses
+  Vcl.Forms,
+  UPrincipal in '..\Forms\UPrincipal.pas' {frmPrincipal},
+  UDM in '..\Forms\UDM.pas' {DM: TDataModule},
+  UPadrao in '..\Forms\UPadrao.pas' {frmPadrao},
+  UUsuario in '..\Forms\UUsuario.pas' {frmUsuario},
+  UEmpresa in '..\Forms\UEmpresa.pas' {frmEmpresa},
+  UCliente in '..\Forms\UCliente.pas' {frmCliente},
+  UFornecedor in '..\Forms\UFornecedor.pas' {frmFornecedor},
+  UProduto in '..\Forms\UProduto.pas' {frmProduto},
+  UPadraoPesquisa in '..\Forms\UPadraoPesquisa.pas' {frmPadraoPesquisa},
+  UFormaPgto in '..\Forms\UFormaPgto.pas' {frmFormaPgto},
+  UPesqUsuario in '..\Forms\UPesqUsuario.pas' {frmPesquisaUsuario};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TDM, DM);
+  Application.CreateForm(TfrmPesquisaUsuario, frmPesquisaUsuario);
+  Application.Run;
+end.

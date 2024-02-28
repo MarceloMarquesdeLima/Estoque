@@ -1,0 +1,72 @@
+unit UCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UPadrao, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, Vcl.DBCtrls, Vcl.StdCtrls,
+  Vcl.Buttons, Vcl.ExtCtrls, Vcl.Mask;
+
+type
+  TfrmCliente = class(TfrmPadrao)
+    QPadraoID_CLIENTE: TFDAutoIncField;
+    QPadraoNOME: TStringField;
+    QPadraoENDERECO: TStringField;
+    QPadraoNUMERO: TIntegerField;
+    QPadraoBAIRRO: TStringField;
+    QPadraoCIDADE: TStringField;
+    QPadraoUF: TStringField;
+    QPadraoCEP: TStringField;
+    QPadraoTELEFONE: TStringField;
+    QPadraoCPF: TStringField;
+    QPadraoEMAIL: TStringField;
+    QPadraoCADASTRO: TDateField;
+    Label1: TLabel;
+    edtCodigo: TDBEdit;
+    Label2: TLabel;
+    edtNome: TDBEdit;
+    Label3: TLabel;
+    edtEndereco: TDBEdit;
+    Label4: TLabel;
+    edtNumero: TDBEdit;
+    Label5: TLabel;
+    edtBairro: TDBEdit;
+    Label6: TLabel;
+    edtCidade: TDBEdit;
+    Label7: TLabel;
+    edtEstado: TDBEdit;
+    Label8: TLabel;
+    edtCep: TDBEdit;
+    Label9: TLabel;
+    edtTelefone: TDBEdit;
+    Label10: TLabel;
+    edtCpf: TDBEdit;
+    Label11: TLabel;
+    edtAmail: TDBEdit;
+    Label12: TLabel;
+    edtCadastro: TDBEdit;
+    procedure btnNovoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCliente: TfrmCliente;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmCliente.btnNovoClick(Sender: TObject);
+begin
+  inherited;
+  edtCadastro.Text := DateTostr(now);
+  edtNome.SetFocus;
+end;
+
+end.

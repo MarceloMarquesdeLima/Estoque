@@ -1,0 +1,40 @@
+unit UPesqFornecedor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UPadraoPesquisa, Data.DB,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
+  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  FireDAC.Stan.Async, FireDAC.DApt, FireDAC.Comp.DataSet, FireDAC.Comp.Client,
+  Vcl.Grids, Vcl.DBGrids, Vcl.StdCtrls, Vcl.Buttons, Vcl.Mask, Vcl.ExtCtrls;
+
+type
+  TfrmPesqFornecedor = class(TfrmPadraoPesquisa)
+    QPesquisaPadraoID_FORNECEDOR: TIntegerField;
+    QPesquisaPadraoNOME: TStringField;
+    QPesquisaPadraoENDERECO: TStringField;
+    QPesquisaPadraoNUMERO: TIntegerField;
+    QPesquisaPadraoBAIRRO: TStringField;
+    QPesquisaPadraoCIDADE: TStringField;
+    QPesquisaPadraoUF: TStringField;
+    QPesquisaPadraoCEP: TStringField;
+    QPesquisaPadraoTELEFONE: TStringField;
+    QPesquisaPadraoCNPJ: TStringField;
+    QPesquisaPadraoEMAIL: TStringField;
+    QPesquisaPadraoCADASTRO: TDateField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPesqFornecedor: TfrmPesqFornecedor;
+
+implementation
+
+{$R *.dfm}
+
+end.

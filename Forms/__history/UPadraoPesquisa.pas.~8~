@@ -1,0 +1,44 @@
+unit UPadraoPesquisa;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Data.DB, Vcl.Grids,
+  Vcl.DBGrids, Vcl.Mask, Vcl.StdCtrls, Vcl.Buttons, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client, UDM;
+
+type
+  TfrmPadraoPesquisa = class(TForm)
+    Panel1: TPanel;
+    cmbItemPesquisa: TComboBox;
+    Label1: TLabel;
+    edtNome: TEdit;
+    mkInicio: TMaskEdit;
+    mkFim: TMaskEdit;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Panel2: TPanel;
+    DBGrid1: TDBGrid;
+    DSPesquisaPadra: TDataSource;
+    btnPesquisar: TBitBtn;
+    btnTransferir: TBitBtn;
+    btnImprimir: TBitBtn;
+    QPesquisaPadrao: TFDQuery;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPadraoPesquisa: TfrmPadraoPesquisa;
+
+implementation
+
+{$R *.dfm}
+
+end.

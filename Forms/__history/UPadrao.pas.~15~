@@ -1,0 +1,103 @@
+unit UPadrao;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.DBCtrls, Vcl.StdCtrls, Vcl.Buttons,
+  Vcl.ExtCtrls, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
+  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  FireDAC.Stan.Async, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client;
+
+type
+  TfrmPadrao = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    btnNovo: TBitBtn;
+    btnDeletar: TBitBtn;
+    btnEditar: TBitBtn;
+    btnGravar: TBitBtn;
+    btnCancelar: TBitBtn;
+    btnAtualizar: TBitBtn;
+    DBNavigator1: TDBNavigator;
+    btnPesquisar: TBitBtn;
+    QPadrao: TFDQuery;
+    DSPadrao: TDataSource;
+    procedure FormKeyPress(Sender: TObject; var Key: Char);
+    procedure btnNovoClick(Sender: TObject);
+    procedure btnDeletarClick(Sender: TObject);
+    procedure btnEditarClick(Sender: TObject);
+    procedure btnGravarClick(Sender: TObject);
+    procedure btnCancelarClick(Sender: TObject);
+    procedure btnAtualizarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPadrao: TfrmPadrao;
+
+implementation
+
+{$R *.dfm}
+
+uses UDM;
+
+procedure TfrmPadrao.btnAtualizarClick(Sender: TObject);
+begin
+  QPadrao.Refresh;
+  messagedlg('Registro atualizado com sucesso!',mtInformation,[mbOk],0);
+end;
+
+procedure TfrmPadrao.btnCancelarClick(Sender: TObject);
+begin
+  QPadrao.Cancel;
+  messagedlg('Ação cancelada pelo usuário!',mtInformation,[mbOk],0);
+end;
+
+procedure TfrmPadrao.btnDeletarClick(Sender: TObject);
+begin
+  if messagedlg('Deseja deletar o registro?',mtConfirmation,[mbOk,mbNo],0)=mrOk then
+    begin
+      QPadrao.Delete;
+      messagedlg('Registro deletado com sucesso!',mtInformation,[mbOk],0);
+    end
+    else
+      abort;
+
+end;
+
+procedure TfrmPadrao.btnEditarClick(Sender: TObject);
+begin
+   if messagedlg('Deseja editar o registro?',mtConfirmation,[mbOk,mbNo],0)=mrOk then
+    begin
+      QPadrao.Edit;
+    end
+    else
+      abort;
+end;
+
+procedure TfrmPadrao.btnGravarClick(Sender: TObject);
+begin
+  QPadrao.Post;
+  messagedlg('Registro salvo com sucesso!',mtInformation,[mbOk],0);
+end;
+
+procedure TfrmPadrao.btnNovoClick(Sender: TObject);
+begin
+  QPadrao.Append;
+end;
+
+procedure TfrmPadrao.FormKeyPress(Sender: TObject; var Key: Char);
+begin
+  if key=#13 then
+    begin
+      Key:=#0;
+      Perform(wm_nextDlgCtl,0,0);
+    end;
+end;
+
+end.

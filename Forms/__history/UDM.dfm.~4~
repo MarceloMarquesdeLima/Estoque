@@ -1,0 +1,29 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 330
+  Width = 536
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'Database=C:\projetos\Deplhi\Estoque\EXE\Banco\ESTOQUE.FDB'
+      'User_Name=SYSDBA'
+      'Password=Mar15ma02li82'
+      'Protocol=TCPIP'
+      'Server=localhost'
+      'Port=3050'
+      'CharacterSet=WIN1252'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 136
+    Top = 80
+  end
+  object Transacao: TFDTransaction
+    Connection = Conexao
+    Left = 224
+    Top = 80
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 328
+    Top = 80
+  end
+end

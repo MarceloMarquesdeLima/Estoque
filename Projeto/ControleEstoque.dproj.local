@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/12/27 15:39:23.000.159,=C:\Users\marce\OneDrive\Bkps\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/27 15:43:16.000.163,C:\Users\marce\OneDrive\Bkps\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\projetos\Deplhi\Estoque\Forms\UPrincipal.dfm</Transaction>
+    <Transaction>2023/12/27 15:43:16.000.163,C:\Users\marce\OneDrive\Bkps\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\projetos\Deplhi\Estoque\Forms\UPrincipal.pas</Transaction>
+    <Transaction>2023/12/27 15:43:46.000.737,C:\Users\marce\OneDrive\Bkps\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\projetos\Deplhi\Estoque\Projeto\ControleEstoque.dproj</Transaction>
+    <Transaction>2023/12/27 17:46:20.000.584,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2023/12/27 17:47:19.000.333,C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm=C:\projetos\Deplhi\Estoque\Forms\UDM.dfm</Transaction>
+    <Transaction>2023/12/27 17:47:19.000.333,C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas=C:\projetos\Deplhi\Estoque\Forms\UDM.pas</Transaction>
+    <Transaction>2023/12/27 17:59:09.000.965,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2023/12/27 18:00:16.000.190,C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas=C:\projetos\Deplhi\Estoque\Forms\UPadrao.pas</Transaction>
+    <Transaction>2023/12/27 18:00:16.000.190,C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm=C:\projetos\Deplhi\Estoque\Forms\UPadrao.dfm</Transaction>
+    <Transaction>2023/12/28 06:19:39.000.465,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2023/12/28 06:21:03.000.653,C:\projetos\Deplhi\Estoque\Forms\UUsuario.dfm=C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2023/12/28 06:21:03.000.653,C:\projetos\Deplhi\Estoque\Forms\UUsuario.pas=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/02 06:54:26.000.191,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/02 07:00:21.000.846,C:\projetos\Deplhi\Estoque\Forms\UEmpresa.dfm=C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/01/02 07:00:21.000.846,C:\projetos\Deplhi\Estoque\Forms\UEmpresa.pas=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/02 14:49:07.000.238,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/02 14:51:19.000.819,C:\projetos\Deplhi\Estoque\Forms\UCliente.pas=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/02 14:51:19.000.819,C:\projetos\Deplhi\Estoque\Forms\UCliente.dfm=C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/01/03 10:53:38.000.190,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/03 10:54:52.000.657,C:\projetos\Deplhi\Estoque\Forms\UFornecedor.dfm=C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/01/03 10:54:52.000.657,C:\projetos\Deplhi\Estoque\Forms\UFornecedor.pas=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/03 16:07:55.000.589,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/03 16:09:03.000.100,C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm=C:\projetos\Deplhi\Estoque\Forms\UProduto.dfm</Transaction>
+    <Transaction>2024/01/03 16:09:03.000.100,C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas=C:\projetos\Deplhi\Estoque\Forms\UProduto.pas</Transaction>
+    <Transaction>2024/01/05 15:49:32.000.214,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/05 15:50:52.000.688,C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas=C:\projetos\Deplhi\Estoque\Projeto\UFormaPgto.pas</Transaction>
+    <Transaction>2024/01/05 15:50:52.000.688,C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm=C:\projetos\Deplhi\Estoque\Projeto\UFormaPgto.dfm</Transaction>
+    <Transaction>2024/01/05 17:12:58.000.492,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/05 17:13:44.000.896,C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas=C:\projetos\Deplhi\Estoque\Forms\UPadraoPesquisa.pas</Transaction>
+    <Transaction>2024/01/05 17:13:44.000.896,C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm=C:\projetos\Deplhi\Estoque\Forms\UPadraoPesquisa.dfm</Transaction>
+    <Transaction>2024/01/05 17:28:40.000.001,=C:\projetos\Deplhi\Estoque\Forms\UFormaPgto.pas</Transaction>
+    <Transaction>2024/01/13 18:54:45.000.354,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/13 18:55:55.000.392,C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas=C:\projetos\Deplhi\Estoque\Forms\UPesqUsuario.pas</Transaction>
+    <Transaction>2024/01/13 18:55:55.000.392,C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm=C:\projetos\Deplhi\Estoque\Forms\UPesqUsuario.dfm</Transaction>
+    <Transaction>2024/01/21 13:52:24.000.935,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/21 13:52:47.000.645,C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas=C:\projetos\Deplhi\Estoque\Forms\UPesqCliente.pas</Transaction>
+    <Transaction>2024/01/21 13:52:47.000.645,C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm=C:\projetos\Deplhi\Estoque\Forms\UPesqCliente.dfm</Transaction>
+    <Transaction>2024/01/21 14:50:39.000.325,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/21 14:51:55.000.250,C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm=C:\projetos\Deplhi\Estoque\Forms\UPesqFornecedor.dfm</Transaction>
+    <Transaction>2024/01/21 14:51:55.000.250,C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas=C:\projetos\Deplhi\Estoque\Forms\UPesqFornecedor.pas</Transaction>
+    <Transaction>2024/01/21 15:19:33.000.685,=C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/01/21 15:20:08.000.029,C:\projetos\Deplhi\Estoque\Projeto\Unit1.pas=C:\projetos\Deplhi\Estoque\Forms\UPesqProduto.pas</Transaction>
+    <Transaction>2024/01/21 15:20:08.000.029,C:\projetos\Deplhi\Estoque\Projeto\Unit1.dfm=C:\projetos\Deplhi\Estoque\Forms\UPesqProduto.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
